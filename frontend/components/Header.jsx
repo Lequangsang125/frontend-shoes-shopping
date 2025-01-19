@@ -16,26 +16,26 @@ const Header = () => {
     const [show, setShow] = useState("translate-y-0");
     const [lastScrolly, setLastScrolly] = useState(0);
 
-    const controlNavBar = () =>{
-            if(window.scrollY > 200){
-                if(window.scrollY > lastScrolly && !mobileMenu){
-                    setShow("-translate-y-[80px]")
-                }else{
-                    setShow("shadow-sm")
-                }
-               
-            }else{
-                setShow("translate-y-0")
+    const controlNavBar = () => {
+        if (window.scrollY > 200) {
+            if (window.scrollY > lastScrolly && !mobileMenu) {
+                setShow("-translate-y-[80px]")
+            } else {
+                setShow("shadow-sm")
             }
-            setLastScrolly(window.scrollY)
+
+        } else {
+            setShow("translate-y-0")
+        }
+        setLastScrolly(window.scrollY)
     }
-    
+
     useEffect(() => {
-        window.addEventListener("scroll",controlNavBar);
-        return () =>{
+        window.addEventListener("scroll", controlNavBar);
+        return () => {
             window.removeEventListener("scroll", controlNavBar);
         }
-    },[])
+    }, [])
     return <header className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}>
         <Wrapper className="h-[60px] flex justify-between items-center">
             <Link href="/">
@@ -66,15 +66,15 @@ const Header = () => {
                 {/* icon end */}
 
                 {/* Icon start  */}
-               <Link href='/cart'>
-               <div className='w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center 
+                <Link href='/cart'>
+                    <div className='w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center 
             items-center hover:bg-black/[0.05] cursor-pointer relative'>
-                    <BsCart className='text-[15px] md:text-[20px]' />
-                    <div className='h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px]
+                        <BsCart className='text-[15px] md:text-[20px]' />
+                        <div className='h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px]
                 rounded-full bg-red-600 text-white absolute top-1 left-5 md:left-7
                 text-[10px] md:text-[12px] flex justify-center items-center px-[2px] 
                 md:px-[5px]'>5</div>
-                </div>
+                    </div>
                 </Link>
                 {/* icon end */}
 
