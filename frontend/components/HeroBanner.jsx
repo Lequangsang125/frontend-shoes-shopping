@@ -42,7 +42,7 @@ const HeroBanner = () => {
                     font-oswald bg-white absolute bottom-[25px] md:bottom-[75px] left-0 text-[15px] md:text-[30px]
                     uppercase font-medium cursor-pointer hover:opacity-90
                     '>
-            Shop now
+            Mua sắm 
           </div>
         </div>
 
@@ -53,7 +53,7 @@ const HeroBanner = () => {
                     font-oswald bg-white absolute bottom-[25px] md:bottom-[75px] left-0 text-[15px] md:text-[30px]
                     uppercase font-medium cursor-pointer hover:opacity-90
                     '>
-            Shop now
+            Mua sắm 
           </div>
         </div>
 
@@ -64,7 +64,7 @@ const HeroBanner = () => {
                     font-oswald bg-white absolute bottom-[25px] md:bottom-[75px] left-0 text-[15px] md:text-[30px]
                     uppercase font-medium cursor-pointer hover:opacity-90
                     '>
-            Shop now
+            Mua sắm 
           </div>
         </div>
 

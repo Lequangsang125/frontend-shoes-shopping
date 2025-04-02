@@ -4,17 +4,17 @@ import {BsChevronDown} from 'react-icons/bs'
 
 const Menu = ({showCatMenu,setShowCatMenu}) => {
     const data = [
-        { id: 1, name: "Home", url: "/" },
-        { id: 2, name: "About", url: "/about" },
-        { id: 3, name: "Categories", subMenu: true },
-        { id: 4, name: "Contact", url: "/contact" },
+        { id: 1, name: "Trang chủ", url: "/" },
+        { id: 2, name: "Giới thiệu", url: "/about" },
+        { id: 3, name: "Danh mục", subMenu: true },
+        { id: 4, name: "Liên hệ", url: "/contact" },
     ];
     
     const subMenuData = [
         { id: 1, name: "Jordan", doc_count: 11 },
-        { id: 2, name: "Sneakers", doc_count: 8 },
-        { id: 3, name: "Running shoes", doc_count: 64 },
-        { id: 4, name: "Football shoes", doc_count: 107 },
+        { id: 2, name: "Giày thể thao", doc_count: 8 },
+        { id: 3, name: "Giày chạy bộ", doc_count: 64 },
+        { id: 4, name: "Giày đá bóng", doc_count: 107 },
     ];
   return (
     <ul className='hidden md:flex items-center gap-8 font-medium text-black'>

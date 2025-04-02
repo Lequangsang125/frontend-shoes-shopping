@@ -6,78 +6,78 @@ const Footer = () => {
     return (
         <footer className="bg-black text-white pt-14 pb-3">
             <Wrapper className="flex justify-between flex-col md:flex-row gap-[50px] md:gap-0">
-                {/* LEFT START */}
+                {/* BÊN TRÁI BẮT ĐẦU */}
                 <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] flex-col md:flex-row">
-                    {/* MENU START */}
+                    {/* MENU BẮT ĐẦU */}
                     <div className="flex flex-col gap-3 shrink-0">
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            Find a store
+                            Tìm cửa hàng
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            become a partner
+                            Trở thành đối tác
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            sign up for email
+                            Đăng ký nhận email
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            send us feedback
+                            Gửi phản hồi cho chúng tôi
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            student discount
+                            Giảm giá cho sinh viên
                         </div>
                     </div>
-                    {/* MENU END */}
+                    {/* MENU KẾT THÚC */}
 
-                    {/* NORMAL MENU START */}
+                    {/* MENU THÔNG THƯỜNG BẮT ĐẦU */}
                     <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] shrink-0">
-                        {/* MENU START */}
+                        {/* MENU BẮT ĐẦU */}
                         <div className="flex flex-col gap-3">
                             <div className="font-oswald font-medium uppercase text-sm">
-                                get help
+                                Hỗ trợ khách hàng
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Order Status
+                                Trạng thái đơn hàng
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Delivery
+                                Giao hàng
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Returns
+                                Trả hàng
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Payment Options
+                                Phương thức thanh toán
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Contact Us
+                                Liên hệ với chúng tôi
                             </div>
                         </div>
-                        {/* MENU END */}
+                        {/* MENU KẾT THÚC */}
 
-                        {/* MENU START */}
+                        {/* MENU BẮT ĐẦU */}
                         <div className="flex flex-col gap-3">
                             <div className="font-oswald font-medium uppercase text-sm">
-                                About nike
+                                Về chúng tôi
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                News
+                                Tin tức
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Careers
+                                Cơ hội nghề nghiệp
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Investors
+                                Nhà đầu tư
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Sustainability
+                                Bền vững
                             </div>
                         </div>
-                        {/* MENU END */}
+                        {/* MENU KẾT THÚC */}
                     </div>
-                    {/* NORMAL MENU END */}
+                    {/* MENU THÔNG THƯỜNG KẾT THÚC */}
                 </div>
-                {/* LEFT END */}
+                {/* BÊN TRÁI KẾT THÚC */}
 
-                {/* RIGHT START */}
+                {/* BÊN PHẢI BẮT ĐẦU */}
                 <div className="flex gap-4 justify-center md:justify-start">
                     <div onClick={() => window.open('https://facebook.com')} className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
                         <FaFacebookF size={20} />
@@ -92,31 +92,31 @@ const Footer = () => {
                         <FaInstagram size={20} />
                     </div>
                 </div>
-                {/* RIGHT END */}
+                {/* BÊN PHẢI KẾT THÚC */}
             </Wrapper>
             <Wrapper className="flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0">
-                {/* LEFT START */}
+                {/* BÊN TRÁI BẮT ĐẦU */}
                 <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer text-center md:text-left">
-                    © 2023 Nike, Inc. All Rights Reserved
+                    © 2025 le quang sang
                 </div>
-                {/* LEFT END */}
+                {/* BÊN TRÁI KẾT THÚC */}
 
-                {/* RIGHT START */}
+                {/* BÊN PHẢI BẮT ĐẦU */}
                 <div className="flex gap-2 md:gap-5 text-center md:text-left flex-wrap justify-center">
                     <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-                        Guides
+                        Hướng dẫn
                     </div>
                     <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-                        Terms of Sale
+                        Điều khoản bán hàng
                     </div>
                     <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-                        Terms of Use
+                        Điều khoản sử dụng
                     </div>
                     <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-                        Privacy Policy
+                        Chính sách bảo mật
                     </div>
                 </div>
-                {/* RIGHT END */}
+                {/* BÊN PHẢI KẾT THÚC */}
             </Wrapper>
         </footer>
     );

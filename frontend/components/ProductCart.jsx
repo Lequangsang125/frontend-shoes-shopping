@@ -10,11 +10,11 @@ const ProductCart = () => {
     href='/product/1'>
         <img  className='w-full'  src="/assets/p1.png" alt="ProductImage" />
         <div className='p-4 text-black/[0.9]'>
-            <h2 className='text-lg font-medium'>Product Name</h2>
+            <h2 className='text-lg font-medium'>Tên sản phẩm</h2>
             <div className='flex items-center text-black/[0.5]'>
-                <p className='mr-2 text-lg font-semibold'>$25.00</p>
-                <p className='text-base font-medium line-through'>$30.00</p>
-                <p className='ml-auto text-base text-green-500'>20% off</p>
+                <p className='mr-2 text-lg font-semibold'>250.000đ</p>
+                <p className='text-base font-medium line-through'>300.000đ</p>
+                <p className='ml-auto text-base text-green-500'> giảm 20%</p>
             </div>
         </div>
     </Link>
